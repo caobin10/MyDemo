@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_operate_window"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/tv_copy"
+            style="@style/OperateTextView"
+            android:text="@string/copy" />
+
+        <TextView
+            android:id="@+id/tv_select_all"
+            style="@style/OperateTextView"
+            android:text="@string/select_all" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_copy"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="245dp"
+        android:layout_marginRight="253dp"
+        android:src="@drawable/triangle_down" />
+</RelativeLayout>
